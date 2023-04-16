@@ -1,5 +1,5 @@
 fn get_greeting() -> String {
-    "Hello!".to_owned()
+    "Hello, World!".to_owned()
 }
 
 fn main() {

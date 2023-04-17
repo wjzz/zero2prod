@@ -9,7 +9,7 @@ async fn health_check() -> impl Responder {
     HttpResponse::Ok()
 }
 
-pub const ADDRESS: &'static str = "127.0.0.1:8000";
+pub const ADDRESS: &str = "127.0.0.1:8000";
 
 pub fn run() -> Result<Server, std::io::Error> {
     let server = HttpServer::new(|| {
